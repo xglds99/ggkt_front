@@ -27,7 +27,7 @@
               label="高级讲师"
             />
             <el-option
-              value="0"
+              value="2"
               label="首席讲师"
             />
           </el-select>
@@ -151,7 +151,7 @@
         </template>
       </el-table-column>
     </el-table>
-    
+
     <!-- 分页组件 -->
     <el-pagination
       :current-page="page"

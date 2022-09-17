@@ -37,4 +37,18 @@ export default {
           data: idList
         })
       },
+      updateById(teacher){
+        return request({
+          url : `${api_name}/update`,
+          method: 'put',
+          data: teacher
+        })
+      },
+      list() {
+        return request({
+          url: `${api_name}/findAll`,
+          method: `get`
+        })
+    }
+      
 }
